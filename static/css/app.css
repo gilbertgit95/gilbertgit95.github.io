@@ -1,0 +1,152 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif-apple-system,BlinkMacSystemFont;
+    font-size: 14pt;
+    color: #333;
+    background: #fefefe;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 20pt;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 16pt;
+    font-weight: 400;
+}
+
+.container {
+    margin: auto;
+    padding: 15px;
+}
+
+.name-desc {
+    line-height: 0.5;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section-title {
+    margin-bottom: 20px;
+}
+
+.section-content {
+
+}
+
+.btn {
+    font-size: 14pt;
+    border: 1px solid #333;
+    border-radius: 5px;
+    color: #333;
+    padding: 5px;
+    padding-left: 15px;
+    text-decoration: none;
+    padding-right: 15px;
+}
+
+.btn:hover {
+    color: #aaa;
+    border-color: #aaa;
+}
+
+.photo {
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    border-radius: 50px;
+    position: relative;
+    top: 15px;
+}
+
+.item.photo-section {
+    display: none !important;
+}
+
+.photo img {
+    width: 105px;
+    height: 105px;
+}
+
+.has-space {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.inlined-content .item {
+    display: inline-block;
+}
+
+.align-right {
+    text-align: left;
+}
+
+/* on screen size change */
+@media only screen and (max-width: 350px) {
+    h1 {
+        font-size: 14pt;
+        font-weight: 500;
+    }
+    h2 {
+        font-size: 12pt;
+    }
+    .name-desc {
+        line-height: 1;
+    }
+    
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 16pt;
+    }
+    .container {
+      max-width: 700px;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        font-size: 18pt;
+    }
+
+    h1 {
+        font-size: 28pt;
+    }
+    h2 {
+        font-size: 20pt;
+    }
+
+    .item.photo-section {
+        display: inline-block !important;
+    }
+
+    .align-right {
+        text-align: right;
+    }
+
+    .container {
+      max-width: 900px;
+    }
+
+    .section .section-content {
+        margin-left: 80px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+        font-size: 30pt;
+    }
+
+    .section .section-title {
+        margin-bottom: 0px;
+    }
+
+    .section .section-content {
+        margin-left: 150px;
+    }
+}
