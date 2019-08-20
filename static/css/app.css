@@ -16,6 +16,10 @@ h2 {
     font-weight: 400;
 }
 
+.header {
+    font-weight: 600;
+}
+
 .container {
     margin: auto;
     padding: 15px;
@@ -23,6 +27,10 @@ h2 {
 
 .name-desc {
     line-height: 0.5;
+}
+
+.upper-border {
+    border-top: 1px solid #ddd;
 }
 
 .section {
@@ -37,20 +45,46 @@ h2 {
 
 }
 
+.sub-section {
+    margin-bottom: 30px;
+}
+
+.footer-content {
+    margin-top: 15px;
+    text-align: right;
+}
+
 .btn {
     font-size: 14pt;
-    border: 1px solid #333;
+    border: 1px solid #aaa;
     border-radius: 5px;
-    color: #333;
+    color: #aaa;
     padding: 5px;
     padding-left: 15px;
     text-decoration: none;
     padding-right: 15px;
 }
 
+.btn-edge-left {
+    border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+}
+
+.btn-edge-right {
+    border-right: 1px solid !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.btn-merged {
+    display: inline-block;
+    border-radius: 0px;
+    border-right: 0px;
+}
+
 .btn:hover {
-    color: #aaa;
-    border-color: #aaa;
+    color: #333;
+    border-color: #333;
 }
 
 .photo {
