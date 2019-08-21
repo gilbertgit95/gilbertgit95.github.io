@@ -16,6 +16,20 @@ h2 {
     font-weight: 400;
 }
 
+/* others */
+.has-space {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.inlined-content .item {
+    display: inline-block;
+}
+
+.align-right {
+    text-align: left;
+}
+
 .header {
     font-weight: 600;
 }
@@ -33,13 +47,14 @@ h2 {
     border-top: 1px solid #ddd;
 }
 
-.section {
-    margin-bottom: 50px;
-}
-
 .footer-section {
     margin: 0px;
     font-size: 12pt;
+}
+
+/* section */
+.section {
+    margin-bottom: 50px;
 }
 
 .section-title {
@@ -50,6 +65,7 @@ h2 {
 
 }
 
+/* subsection */
 .sub-section {
     margin-bottom: 30px;
 }
@@ -59,6 +75,7 @@ h2 {
     text-align: right;
 }
 
+/* button */
 .btn {
     font-size: 14pt;
     border: 1px solid #aaa;
@@ -91,7 +108,7 @@ h2 {
     color: #333;
     border-color: #333;
 }
-
+/* photo */
 .photo {
     max-width: 100px;
     max-height: 100px;
@@ -109,18 +126,29 @@ h2 {
     width: 105px;
     height: 105px;
 }
-
-.has-space {
-    margin-right: 20px;
-    margin-bottom: 20px;
+/* list */
+.list {
+    font-size: 12pt;
+    color: #1d89ab;
 }
 
-.inlined-content .item {
+.list-item {
+    margin-top: 10px;
+    margin-right: 20px;
     display: inline-block;
 }
 
-.align-right {
-    text-align: left;
+.list-item div {
+    display: inline;
+    padding: 0px;
+}
+
+.list-item-name {
+    font-weight: 500;
+}
+
+.list-item-value {
+    font-style: italic;
 }
 
 /* on screen size change */
