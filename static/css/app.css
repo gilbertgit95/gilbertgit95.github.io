@@ -1,6 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif-apple-system,BlinkMacSystemFont;
-    font-size: 14pt;
+    font-size: 12pt;
     color: #333;
     background: #fefefe;
     font-weight: 300;
@@ -12,7 +12,7 @@ h1 {
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: 400;
 }
 
@@ -86,7 +86,7 @@ h2 {
 
 /* button */
 .btn {
-    font-size: 14pt;
+    font-size: 10pt;
     border: 1px solid #aaa;
     border-radius: 5px;
     color: #aaa;
@@ -137,7 +137,7 @@ h2 {
 }
 /* list */
 .list {
-    font-size: 12pt;
+    font-size: 9pt;
     color: #1d89ab;
 }
 
@@ -161,7 +161,7 @@ h2 {
 }
 
 /* on screen size change */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 400px) {
     h1 {
         font-size: 14pt;
         font-weight: 500;
@@ -175,25 +175,32 @@ h2 {
     
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
     body {
-        font-size: 16pt;
+        font-size: 13pt;
     }
     .container {
-      max-width: 700px;
-    }
-}
-
-@media only screen and (min-width: 900px) {
-    body {
-        font-size: 18pt;
+      max-width: 500px;
     }
 
     h1 {
-        font-size: 28pt;
+        font-size: 20pt;
     }
     h2 {
-        font-size: 20pt;
+        font-size: 14pt;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        font-size: 14pt;
+    }
+
+    h1 {
+        font-size: 24pt;
+    }
+    h2 {
+        font-size: 18pt;
     }
 
     .item.photo-section {
@@ -205,17 +212,20 @@ h2 {
     }
 
     .container {
-      max-width: 900px;
+      max-width: 700px;
     }
 
     .section .section-content {
-        margin-left: 80px;
+        margin-left: 40px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     h1 {
-        font-size: 30pt;
+        font-size: 28pt;
+    }
+    h2 {
+        font-size: 20pt;
     }
 
     .section .section-title {
@@ -223,6 +233,6 @@ h2 {
     }
 
     .section .section-content {
-        margin-left: 150px;
+        margin-left: 100px;
     }
 }
