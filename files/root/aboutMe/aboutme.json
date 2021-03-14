@@ -19,11 +19,11 @@
           }
        ]
     },
-    "overview": "\n                    <b>Fix<\/b> or resolve issues by wrapping a complex proccess into a simple\n                    <b>Utility<\/b> or <b>Library<\/b>. Find\n                    <b>Patterns<\/b> and Develop <b>Alogarithm<\/b>\n                    that will theoritically solve a problem. <b>Implement<\/b> Algorithms using\n                    <b>Web technologies<\/b>, which I believe is the future.\n                ",
+    "overview": " <b>Fix<\/b> or resolve issues by wrapping a complex proccess into a simple <b>Utility<\/b> or <b>Library<\/b>. Find <b>Patterns<\/b> and Develop <b>Alogarithm<\/b> that will theoritically solve a problem. <b>Implement<\/b> Algorithms using <b>Web technologies<\/b>, which I believe is the future.           ",
     "experience": [
        {
           "org": "Zilverband",
-          "desc": "\n Part of my job is to <b>Maintain<\/b> and\n <b>Develop<\/b> features of the main app.\n Scope of my responsibility range from the frontend development to\n <b>Server-side<\/b>, but is more fucos on\n the Frontend<b>Client-side<\/b>.\n                        ",
+          "desc": " Part of my job is to <b>Maintain<\/b> and <b>Develop<\/b> features of the main app and sub apps. Scope of my responsibility range from the frontend development to Server-side.",
           "position": "Software Developer",
           "year": "Dec 2, 2019 - Present",
           "links": [
@@ -39,7 +39,7 @@
        },
        {
           "org": "Detail Online Technology",
-          "desc": "\n Part of my job is to <b>Maintain<\/b> and\n <b>Develop<\/b> features of the main app.\n Scope of my responsibility range from the frontend development to\n <b>Server-side<\/b>, but is more fucos on\n the Frontend<b>Client-side<\/b>.\n                        ",
+          "desc": " Part of my job is to <b>Maintain<\/b> and <b>Develop<\/b> features of the main app. Scope of my responsibility range from the frontend development to <b>Server-side<\/b>, but is more fucos on the Frontend<b>Client-side<\/b>.\n",
           "position": "Software Developer",
           "year": "June 1, 2018 - Nov 29, 2019",
           "links": [
@@ -55,7 +55,7 @@
        },
        {
           "org": "Samatosa",
-          "desc": "\n Scope of my Responsibility is on the Frontend only.\n <b>Maintain<\/b> and\n <b>Develop<\/b> features\n on the frontend main application.\n                        ",
+          "desc": " Scope of my Responsibility is on the Frontend only. <b>Maintain<\/b> and <b>Develop<\/b> features on the frontend main application.\n",
           "position": "Software Developer",
           "year": "October 1, 2017 - May 30, 2018",
           "links": []
@@ -64,7 +64,7 @@
     "personalProjs": [
        {
           "title": "Tank Filler",
-          "desc": "\n Embedded system use to automatically fill a water\n storage according to the sensor values.\n                        ",
+          "desc": " Embedded system use to automatically fill a water storage according to the sensor values.\n",
           "status": "In Progress",
           "year": "2019",
           "mainTechs": [],
@@ -72,7 +72,7 @@
        },
        {
           "title": "Money Tracker",
-          "desc": "\n use to personally monitor money usage, for tracking the income\n and expenses. Then visually create graphs of money vs time\n                        ",
+          "desc": " use to personally monitor money usage, for tracking the income and expenses. Then visually create graphs of money vs time\n",
           "status": "In Progress",
           "year": "2018",
           "mainTechs": [],
@@ -80,7 +80,7 @@
        },
        {
           "title": "Treemap",
-          "desc": "\n developed for a specific feature in my job as a Developer, the architecture\n is designed for public usage.\n                        ",
+          "desc": " developed for a specific feature in my job as a Developer, the architecture is designed for public usage.\n",
           "status": "Done",
           "year": "2017",
           "mainTechs": [],
@@ -99,7 +99,7 @@
     "education": [
        {
           "org": "SDSSU - Cantilan Campus",
-          "desc": "\n Studied BS Computer Engineering. Though we are more on\n <b>IoT<\/b>(Internet of Things) stuff's at this time. I practice\n more on the <b>WEB<\/b> technologies like the core JavaScript,\n stylesheets, markup language, basic Server and basic Database.\n",
+          "desc": " Studied BS Computer Engineering. Though we are more on <b>IoT<\/b>(Internet of Things) stuff's at this time. I practice more on the <b>WEB<\/b> technologies like the core JavaScript, stylesheets, markup language, basic Server and basic Database.\n",
           "year": "2012 - 2017",
           "links": [
              {
@@ -126,7 +126,7 @@
        },
        {
           "title": "Familiar",
-          "desc": "\n Sometimes I need to use or access this Tech's in my job, or Just\n for exploration:\n",
+          "desc": " Sometimes I need to use or access this Tech's in my job, or Just for exploration:\n",
           "techs": [
              "React",
              "Meteor",
