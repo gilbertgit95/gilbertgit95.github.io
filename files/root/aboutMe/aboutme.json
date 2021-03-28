@@ -118,24 +118,34 @@
           "title": "Proficient",
           "desc": "Usually, I use this Technologies: ",
           "techs": [
-             "NodeJS",
+             "Pure Javascript",
              "VueJS",
+             "React",
+             "NodeJS",
              "ExpressJS",
-             "Pure Javascript"
+             "Sequelize"
           ]
        },
        {
           "title": "Familiar",
           "desc": " Sometimes I need to use or access this Tech's in my job, or Just for exploration:\n",
           "techs": [
-             "React",
              "Meteor",
              "AngularJS",
              "MSSQL",
              "MySQL",
              "PostgresSQl",
              "MongoDB",
-             "Azure App Services"
+             "Azure App Services",
+             "Go"
+          ]
+       },
+       {
+          "title": "Interest",
+          "desc": "I was always interested in small gadgets like IOT and Mobile, but I'm still a beginner. For platforms like this, I prefer to use this techs: ",
+          "techs": [
+             "Go and Tinygo",
+             "React and React-native"
           ]
        }
     ]
