@@ -6,7 +6,8 @@ import utils from '../utilities'
 
 const PublicContext = createContext({
     publicContext: {
-      aboutMe: null
+      aboutMe: null,
+      isLoading: true
     },
     setPublicContext(data) { return },
 })
@@ -14,15 +15,16 @@ export default PublicContext
 
 export const usePublicContext = () => {
     const [publicContext, setPublicContext] = useState({
-      aboutMe: null
+      aboutMe: null,
+      isLoading: true
     })
 
     useEffect(() => {
       let init = async () => {
         let resp = await googleDrive.fetchAboutMe()
-        console.log('public context', resp)
+        // console.log('public context', resp)
 
-        setPublicContext({...publicContext, ...{ aboutMe: resp }})
+        setPublicContext({...publicContext, ...{ aboutMe: resp, isLoading: false }})
       }
 
       init()

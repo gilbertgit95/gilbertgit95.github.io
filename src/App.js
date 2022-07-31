@@ -39,19 +39,13 @@ function App() {
         <PublicContext.Provider value={{ ...publicStates }}>
           {/* provides local storage data globally with respect to the pages */}
           <LocalStorageContext.Provider value={{ ...localStorageStates }}>
-              {/* provides account data globally with respect to the pages */}
-              <AccountContext.Provider value={{ ...accountStates }}>
-                {/* provides admin data globally with respect to the pages */}
-                <AdminContext.Provider value={{ ...adminStates }}>
-                  {/* global dialog popup box */}
-                  <GlobalDialogContext.Provider value={{ ...globalDialogStates }}>
-                    <Pages />
-                    <GlobalDialogComponents
-                      onAction={ globalDialogStates.action }
-                      {...globalDialogStates.globalDialogContext} />
-                  </GlobalDialogContext.Provider>
-                </AdminContext.Provider>
-              </AccountContext.Provider>
+              {/* global dialog popup box */}
+              <GlobalDialogContext.Provider value={{ ...globalDialogStates }}>
+                <Pages />
+                <GlobalDialogComponents
+                  onAction={ globalDialogStates.action }
+                  {...globalDialogStates.globalDialogContext} />
+              </GlobalDialogContext.Provider>
           </LocalStorageContext.Provider>
         </PublicContext.Provider>
       </SnackbarProvider>

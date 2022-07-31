@@ -4,21 +4,22 @@ import Box from '@mui/material/Box'
 import Typography from '@mui/material/Typography'
 import LinearProgress from '@mui/material/LinearProgress'
 
-import AccountContext from '../contexts/accountContext'
+import PublicContext from '../contexts/publicContext'
 import config from '../../config'
 
 const InitialLoadinglayout = (props) => {
     const [hasInitialized, setHasInitialized] = useState(false)
-    const AccCtx = useContext(AccountContext)
-    let initalLoading = typeof AccCtx.accountContext.__isLoading !== 'boolean'
-    let userDataIsLoading = Boolean(AccCtx.accountContext.__isLoading)
+    const PubCtx = useContext(PublicContext)
+
+    let initalLoading = typeof PubCtx.publicContext.isLoading !== 'boolean'
+    let userDataIsLoading = Boolean(PubCtx.publicContext.isLoading)
 
     useEffect(() => {
-        if (   typeof AccCtx.accountContext.__isLoading === 'boolean'
-            && !Boolean(AccCtx.accountContext.__isLoading)) {
+        if (   typeof PubCtx.publicContext.isLoading === 'boolean'
+            && !Boolean(PubCtx.publicContext.isLoading)) {
             setHasInitialized(true)
         }
-    }, [AccCtx.accountContext])
+    }, [PubCtx.publicContext])
 
     // do not render the content if states not yet loaded
     if (initalLoading) return null

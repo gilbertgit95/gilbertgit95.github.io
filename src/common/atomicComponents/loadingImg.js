@@ -33,6 +33,12 @@ const LoadingImg = (props) => {
             ): null }
             <img
                 { ...props }
+                { ...{
+                    style: {
+                        ...{display: states.isLoading? 'none': 'block'},
+                        ...(props.style? props.style: {})
+                    },
+                }}
                 onLoad={(e) => {
                     setStates({...states, ...{ isLoading: false }})
                 }}
