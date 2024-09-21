@@ -34,8 +34,3 @@ To succesfully run the application. please follow the steps below.
 ### Build
 - run by typing `npm run build` for production
 - the build app resides on the dist folder
-
-
-
-## Architecture
-inprogress...
